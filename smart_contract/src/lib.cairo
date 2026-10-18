@@ -1,3 +1,6 @@
+pub mod interfaces;
+pub mod Components;
+
 /// Interface representing `HelloContract`.
 /// This interface allows modification and retrieval of the contract balance.
 #[starknet::interface]
